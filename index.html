@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Tourism</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div>
+                <img src="./Images/logo.jpeg" height="145px" width="170px" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Districts</a></li>
+                    <li><button>Login</button></li>
+                    <li><button>Signup</button></li>
+
+
+                </ul>
+            </nav>
+
+        </header>
+
+        <section>
+            <h1>Come and Enjoy our Culture</h1>
+            <a href="#">Learn More</a>
+            <a href="#">Contact Us</a>
+        </section>
+
+    </main>
+    <hr>
+
+    <section>
+        <h1><u>Top Destinations</u></h1>
+        <article>
+            <ul>
+                <li><b>Alleppey</b></li>
+            </ul>
+            <img src="./Images/alleppey.jpg" alt="Alleppey img">
+        </article>
+        <br>
+        <article>
+            <ul>
+                <li><b>Cochin</b></li>
+            </ul>
+            <img src="./Images/kochi.jpg" alt="kochi img">
+        </article>
+        <br>
+        <article>
+            <ul>
+                <li><b> Munnar</b></li>
+            </ul>
+            <img src="./Images/munnar.jpg" alt="munnar img">
+        </article>
+        <br>
+        <article>
+            <ul>
+                <li><b>Varkala</b></li>
+            </ul>
+            <img src="./Images/varkala.jpg" alt="varkala img">
+        </article>
+        <br>
+        <article>
+            <ul>
+                <li><b>Wayanad</b></li>
+            </ul>
+            <img src="./Images/wayanad.jpg" alt="wayanad img">
+        </article>
+    </section>
+    <hr>
+
+<section>
+    <h1><u>About Kerala</u></h1>
+    <div>
+        <img src="./Images/keralamap.jpg" alt="Kerala map">
+    </div>
+    <p>Kerala, located on the southwestern coast of India, is a state renowned for its lush landscapes, backwaters, and rich cultural heritage. Often referred to as "God's Own Country," Kerala is bordered by the Arabian Sea to the west and the Western Ghats to the east, contributing to its diverse topography and climate. The state is known for its high literacy rate, progressive social indicators, and vibrant traditions in dance, music, and cuisine. Kerala's backwaters, a network of interconnected canals, rivers, and lakes, are a major attraction, offering picturesque houseboat cruises. The state's economy is driven by tourism, agriculture, and a significant expatriate community contributing through remittances. Kerala also boasts a robust healthcare system and has made significant strides in education, making it a model for development in India.</p>
+</section>
+<hr>
+<section>
+    <h1><u>Districts</u></h1>
+    <ol>
+        <li><a href="#">Thiruvananthapuram</a></li>
+        <li><a href="#">Kollam</a></li>
+        <li><a href="#">Pathanamthitta</a></li>
+        <li><a href="#">Alappuzha</a></li>
+        <li><a href="#">Kottayam</a></li>
+        <li><a href="#">Idukki</a></li>
+        <li><a href="#">Ernakulam</a></li>
+        <li><a href="#">Thrissur</a></li>
+        <li><a href="#">Palakkad</a></li>
+        <li><a href="#">Malappuram</a></li>
+        <li><a href="#">Kozhikode</a></li>
+        <li><a href="#">Wayanad</a></li>
+        <li><a href="#">Kannur</a></li>
+        <li><a href="#">Kasaragod</a></li>
+    </ol>
+</section>
+
+<fieldset>
+    <h2>Enter your details :</h2>
+    <form action="#" id="credentials">
+        <label for="fname">First Name * :</label>
+        <input type="text" name="fname" id="fname" required pattern="[A-Za-z/s]" title="Name should only contain letters">
+        <label for="lname">Last Name * :</label>
+        <input type="text" name="lname" id="lname" required pattern="[A-Za-z/s]" title="Name should only contain letters">
+        <br>
+        <br>
+        <label for="gender">Select your gender  :</label>
+        <label for="gender"><input type="radio" name="gender" id="gender">Male</label>
+        <label for="gender"><input type="radio" name="gender" id="gender">Female</label>
+        <label for="gender"><input type="radio" name="gender" id="gender">Others</label>
+        <br>
+        <br>
+        <label for="dob">Date of birth :</label>
+        <input type="date" name="dob" id="dob">
+
+        <br>
+        <br>
+        <label for="email">Email id * :</label>
+        <input type="email" name="email" id="email" required >
+        <br>
+        <br>
+        <label for="phone">Phone no * :</label>
+        <input type="tel" name="phone" id="phone">
+        <br>
+        <br>
+        <label for="password">Password * :</label>
+        <input type="password" name="password" id="password" required >
+        <br>
+        <br>
+        <label for="">Select your district * :</label>
+        <select name="district" id="district" required>
+            <option value="#">Click here to select your district</option>
+            <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+            <option value="Kollam">Kollam</option>
+            <option value="Pathanamthitta">Pathanamthitta</option>
+            <option value="Alappuzha">Alappuzha</option>
+            <option value="Kottayam">Kottayam</option>
+            <option value="Idukki">Idukki</option>
+            <option value="Ernakulam">Ernakulam</option>
+            <option value="Thrissur">Thrissur</option>
+            <option value="Palakkad">Palakkad</option>
+            <option value="Malappuram">Malappuram</option>
+            <option value="Kozhikode">Kozhikode</option>
+            <option value="Wayanad">Wayanad</option>
+            <option value="Kannur">Kannur</option>
+            <option value="Kasaragod">Kasaragod</option>
+        </select>
+    </form>
+    <br>
+    <br>
+    <button type="submit">Submit</button>
+
+</fieldset>
+
+</body>
+</html>
